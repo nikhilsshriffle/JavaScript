@@ -1,8 +1,7 @@
-// In JavaScript we create a variable with help of var let const 
-var x;
-let y;
-x = parseInt(prompt("Enter a first number"));
-y = parseInt(prompt("Enter a second number"));
-const z = x + y;    
+// Here Check how to create variable in see the Javascript syntax
+var x = parseInt(prompt('Enter a first Number'))
+let y = parseInt(prompt('ntert a  second Number'))
+const z = x + y;
 alert(`Sum of Number ${z}`)
-console.log("z",z)
+console.log("Sum of Number",z);
+
