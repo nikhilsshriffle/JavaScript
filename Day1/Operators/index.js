@@ -117,3 +117,7 @@ console.log('1 And Operator :&, 5 & 1	0101 & 0001	   result =0001	 ',5&1);
 console.log('2 or Operator : |, 5|1, 0101 | 0001=0101	',5|1);
 console.log('3 Not Operator : ! ~5 ~0101 1010',~5);
 console.log('4 Xor operator')
+
+
+
+
