@@ -1,4 +1,4 @@
-// We will learn all loops in one Example find with even 
+// We will learn all loops in one Example find with even number
 // 1 for  
 const arr = [1,2,3,4,5,6,7,8,9,10]
 
