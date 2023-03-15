@@ -18,7 +18,7 @@ console.log('\n')
 
 for (let i of arr) {
   if(i%2 ===0) {
-    console.log("Even No for of",i);
+      console.log("Even No for of",i);
   }
 }
 
