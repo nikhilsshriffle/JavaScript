@@ -17,6 +17,7 @@ console.log('str_length',str_length);
 // By trim method we remove the spaces 
 let str2 = '  Nikhil  ';
 let str_trim = str2.trim();
+
 console.log('str_trim',str_trim)
 
 // By padstart it gives the spacing first
