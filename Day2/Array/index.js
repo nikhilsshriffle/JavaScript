@@ -50,3 +50,46 @@ console.log('a.map(c=>c>4)',a.map(c=> c))
 console.log('a',a)
 
 
+// shift the array remove first elment of array
+let arr_shift = a.shift()
+console.log('arr_shift',arr_shift)
+console.log('a',a)
+
+// unshift the array add element in 0 index
+let arr_unshift = a.unshift(5)
+console.log('arr_unshift',arr_unshift)
+console.log('a',a)
+
+// indexOf find index of array 
+let arr_index = a.indexOf(3)
+console.log('arr_index',arr_index)
+console.log('a',a)
+
+a.push(2);
+
+// lastindexOf of the array
+let arr_lastindexOf = a.lastIndexOf(2)
+console.log('arr_lastindexOf',arr_lastindexOf)
+console.log('a',a)
+
+
+// toString() this method convert array in to string
+let arr_toString = a.toString();
+console.log('arr_toString',arr_toString);
+console.log('a',a)  
+
+// delete the array element 
+let arr_delete = ['a','b','c','d','e']
+delete arr_delete[0]
+console.log('arr_delete',arr_delete)
+
+// Concat the array
+let first_arr = [1,2,3,4]
+let second_arr = [5,6,7,8]
+let concat_arr = first_arr.concat(second_arr)
+console.log('concat_arr',concat_arr)
+
+// Sort the array 
+let unsort_arr = [8,1,3,2,6,4,5,7]
+let sorted_arr = unsort_arr.sort()
+console.log('sorted_arr',sorted_arr)
