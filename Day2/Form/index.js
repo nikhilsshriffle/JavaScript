@@ -6,9 +6,9 @@ const regex = new RegExp('[a-z0-9]+@[a-z]+\.[a-z]{2,3}');
 function handlechange(event) {
   console.log('event',event.target.value)  
   if (regex.test(event.target.value)) {
-    document.querySelector('input').style.background ='yellow'
+    document.querySelector('input').style.background ='yellow';
   }
   else {
-    document.querySelector('input').style.background = 'red'
+    document.querySelector('input').style.background = 'red';
   }
 } 
