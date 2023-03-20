@@ -17,6 +17,7 @@ console.log('Person Details 1',employee.fullname.call(person))
 // console.log('person Details 2', employee.fullname.apply(null,['Mumbai','Maharastra']))
 // console.log('person Details 3', )
 
+
 const EmployeeDetails = employee.fullname.apply(person,['Mumbai','India'])
 console.log('EmployeeDetails',EmployeeDetails)
 
