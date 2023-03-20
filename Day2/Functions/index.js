@@ -23,8 +23,8 @@ console.log(subtruct(x,y))
 console.log("3. Anonymous Function");
 
 const firstobj = {
-  Employee_ID : 1,
   Employee_Name : 'Ranveer Singh',
+  Employee_ID : 1,
   Employee_Details : function(profile) {
     console.log('this',this);
     return `EmployeeID : ${this.Employee_ID} EmployeeName :${this.Employee_Name} EmployeeProfile : ${profile}`
@@ -33,8 +33,11 @@ const firstobj = {
 
 console.log(firstobj.Employee_Details('Java Developer'))
 
+let I = 4;
 ( function() {
-  return 'javascript'
+  console.log('I',I)
+   I = 6;
+  console.log('I',I)
 })()
 
 

@@ -50,6 +50,5 @@ const firstObj = {
     }
   }
 }
-
 const totaldetails = firstObj.details()
 console.log('details',totaldetails())
